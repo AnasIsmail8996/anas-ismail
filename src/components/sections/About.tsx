@@ -2,15 +2,15 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { 
-  User, 
-  Briefcase, 
-  Target, 
-  Code2, 
-  Database, 
-  Layout, 
-  Server, 
-  ShieldCheck, 
+import {
+  User,
+  Briefcase,
+  Target,
+  Code2,
+  Database,
+  Layout,
+  Server,
+  ShieldCheck,
   Smartphone,
   Cpu,
   Globe,
@@ -32,7 +32,7 @@ const About = () => {
     visible: {
       y: 0,
       opacity: 1,
-      transition: { duration: 0.6, ease: "easeOut" },
+      transition: { duration: 0.6, ease: "easeOut" as const },
     },
   };
 
@@ -64,7 +64,7 @@ const About = () => {
               About <span className="text-gradient">Me</span>
             </h2>
             <p className="text-zinc-400 max-w-2xl mx-auto text-lg leading-relaxed">
-              A passionate Full Stack MERN Developer dedicated to building scalable, high-performance web applications 
+              A passionate Full Stack MERN Developer dedicated to building scalable, high-performance web applications
               with clean code and user-centric design.
             </p>
           </motion.div>
@@ -78,12 +78,12 @@ const About = () => {
                   Professional Profile
                 </h3>
                 <p className="text-zinc-400 text-lg leading-relaxed mb-8">
-                  I specialize in the <span className="text-white font-semibold">MERN stack</span>, creating robust 
-                  digital solutions that bridge the gap between complex backend logic and intuitive frontend 
-                  experiences. My focus is on writing <span className="text-blue-400">scalable, maintainable code</span> 
+                  I specialize in the <span className="text-white font-semibold">MERN stack</span>, creating robust
+                  digital solutions that bridge the gap between complex backend logic and intuitive frontend
+                  experiences. My focus is on writing <span className="text-blue-400">scalable, maintainable code</span>
                   and staying at the forefront of modern web technologies.
                 </p>
-                
+
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {experiencePoints.map((point, i) => (
                     <div key={i} className="flex gap-4 p-4 rounded-2xl bg-white/5 border border-white/5 hover:bg-white/10 transition-colors">
@@ -130,7 +130,7 @@ const About = () => {
                 <Cpu className="text-emerald-500" />
                 Technical Arsenal
               </h3>
-              
+
               <div className="grid grid-cols-2 gap-4">
                 <SkillCard name="React.js" icon={<Layout />} level="Expert" color="#61DAFB" />
                 <SkillCard name="Next.js" icon={<Globe />} level="Expert" color="#FFFFFF" />
@@ -141,7 +141,7 @@ const About = () => {
                 <SkillCard name="GitHub" icon={<Settings />} level="Advanced" color="#FFFFFF" />
                 <SkillCard name="REST APIs" icon={<Cpu />} level="Expert" color="#FF6C37" />
               </div>
-              
+
               <div className="p-6 rounded-3xl bg-white/5 border border-white/10 mt-8">
                 <h4 className="text-white font-bold mb-4 flex items-center gap-2">
                   <Settings className="w-4 h-4 text-zinc-400" />
