@@ -7,7 +7,7 @@ export interface Project {
   liveDemo: string;
   githubRepo: string;
   features: string[];
-  category: "E-commerce" | "Banking System" | "AI App" | "Dashboard" | "Furniture Website" | "Complaint System" | "Healthcare";
+  category: "E-commerce" | "Post Shered App" | "Banking System" | "AI App" | "Dashboard" | "Furniture Website" | "Complaint System" | "Healthcare";
 }
 
 export const projects: Project[] = [
@@ -20,7 +20,8 @@ export const projects: Project[] = [
     liveDemo: "https://armsoft-front-end.vercel.app/",
     githubRepo: "https://github.com/AnasIsmail8996/armsoft-front-end",
     features: ["Data Mapping", "Inventory Sync", "Advanced Filtering", "Performance Optimized"],
-    category: "Post-App",
+
+    category: "Post Shered App",
   },
   {
     id: "1",
