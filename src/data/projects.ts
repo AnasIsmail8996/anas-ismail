@@ -27,7 +27,7 @@ export const projects: Project[] = [
     id: "1",
     title: "E-commerce ORM System",
     description: "A powerful Object-Relational Mapping system for advanced e-commerce data management and synchronization.",
-    image: "/images/projects/orm-system.jfif",
+    image: "/images/projects/hero_section_image.png",
     techStack: ["Next.js", "PostgreSQL", "Prisma", "Tailwind CSS"],
     liveDemo: "https://orm-system-gamma.vercel.app/",
     githubRepo: "https://github.com/AnasIsmail8996/ORM_Systems",
