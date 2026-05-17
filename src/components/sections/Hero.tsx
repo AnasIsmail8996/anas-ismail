@@ -150,7 +150,7 @@ const Hero = () => {
               >
                 <div className="relative w-full h-full rounded-full overflow-hidden bg-[#030014]">
                   <Image
-                    src="/images/profile/anas_ismail_pic.jfif"
+                    src="/images/profile/anas_ismail_pic.png"
                     alt="Anas Ismail"
                     fill
                     className="object-cover object-[center_15%] transition-transform duration-700 group-hover:scale-110"

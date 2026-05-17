@@ -12,6 +12,17 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: "0",
+    title: "Social Media App",
+    description: "A powerful Object-Relational Mapping system for advanced e-commerce data management and synchronization.",
+    image: "/images/projects/social-media-.jpg",
+    techStack: ["React", "Node.js", "Material UI", "Redux"],
+    liveDemo: "https://armsoft-front-end.vercel.app/",
+    githubRepo: "https://github.com/AnasIsmail8996/armsoft-front-end",
+    features: ["Data Mapping", "Inventory Sync", "Advanced Filtering", "Performance Optimized"],
+    category: "Post-App",
+  },
+  {
     id: "1",
     title: "E-commerce ORM System",
     description: "A powerful Object-Relational Mapping system for advanced e-commerce data management and synchronization.",
@@ -26,7 +37,7 @@ export const projects: Project[] = [
     id: "2",
     title: "MediCal  App",
     description: "A specialized healthcare platform designed for efficient patient data management and medical service coordination.",
-    image: "/images/projects/medical.jfif",
+    image: "/images/projects/medicam-img.avif",
     techStack: ["React", "Node.js", "Express", "MongoDB"],
     liveDemo: "https://medical-alpha-nine.vercel.app/",
     githubRepo: "https://github.com/AnasIsmail8996/hacktheon",
